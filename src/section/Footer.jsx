@@ -79,10 +79,10 @@ export default function Footer() {
               Contact
             </h2>
             {/* phone */}
-            <div className="flex items-center mt-6">
+            <div className="flex items-center mt-6 text-primary hover:text-primaryHover hover:cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-[20px] md:w-[25px] lg:w-[30px] h-[20px] md:h-[25px] lg:h-[30px] text-primary"
+                className="w-[20px] md:w-[25px] lg:w-[30px] h-[20px] md:h-[25px] lg:h-[30px] "
                 viewBox="0 0 32 32"
               >
                 <path
@@ -90,15 +90,15 @@ export default function Footer() {
                   d="m20.33 21.48l2.24-2.24a2.19 2.19 0 0 1 2.34-.48l2.73 1.09a2.18 2.18 0 0 1 1.36 2v5A2.17 2.17 0 0 1 26.72 29C7.59 27.81 3.73 11.61 3 5.41A2.17 2.17 0 0 1 5.17 3H10a2.16 2.16 0 0 1 2 1.36l1.09 2.73a2.16 2.16 0 0 1-.47 2.34l-2.24 2.24s1.29 8.73 9.95 9.81Z"
                 />
               </svg>
-              <p className="font-manrope text-base md:text-lg lg:text-xl font-medium text-primary cursor-pointer ml-3">
+              <p className="font-manrope text-base md:text-lg lg:text-xl font-medium ml-3">
                 (021) 31048184
               </p>
             </div>
             {/* email */}
-            <div className="flex items-center mt-5">
+            <div className="flex items-center mt-5 text-primary hover:cursor-pointer hover:text-primaryHover">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-[20px] md:w-[25px] lg:w-[30px] h-[20px] md:h-[25px] lg:h-[30px] text-primary"
+                className="w-[20px] md:w-[25px] lg:w-[30px] h-[20px] md:h-[25px] lg:h-[30px]"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -106,7 +106,7 @@ export default function Footer() {
                   d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm8-7l8-5V6l-8 5l-8-5v2l8 5Z"
                 />
               </svg>
-              <p className="font-manrope text-base md:text-lg lg:text-xl font-medium text-primary cursor-pointer ml-3">
+              <p className="font-manrope text-base md:text-lg lg:text-xl font-medium  ml-3">
                 irham@suxz.com
               </p>
             </div>

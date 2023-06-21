@@ -36,7 +36,6 @@ export default function Learning() {
           <CardLearning
             img={Images.card3}
             judul="Superstar"
-            variant="primary"
             isi="Materials for experts
             who have completed the
             premium package"
