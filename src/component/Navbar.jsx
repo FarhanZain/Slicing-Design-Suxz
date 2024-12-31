@@ -8,7 +8,7 @@ export default function Navbar() {
   }
   return (
     <>
-      <nav className="bg-transparent px-[30px] md:px-[64px] lg:px-[114px] mt-4 md:mt-6 lg:mt-8">
+      <nav className="bg-transparent px-[30px] md:px-[64px] lg:px-[114px] 2xl:px-[256px] mt-4 md:mt-6 lg:mt-8">
         <div className="flex flex-wrap items-center justify-between py-4">
           <a href="#" className="flex items-center">
             <img src={Images.logo} className="h-8 mr-3" alt="Suxz Logo" />
